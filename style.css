@@ -1,0 +1,48 @@
+body{
+    background-image: url("2d213d36f66c318754bd4b78ab9361f1.jpg");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    color:white;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+}
+#welcome{
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    font-size:80px;
+}
+.LOGO{
+    width:500px;
+    margin: 70px;
+    border-bottom: 20px solid ;
+    border-image-source:linear-gradient(90deg, rgba(172,147,124,1) 0%, rgba(158,132,108,1) 16%, rgba(156,124,100,1) 32%, rgba(156,132,100,1) 48%, rgba(134,106,85,1) 64%, rgba(109,80,54,1) 80%);
+    border-image-slice: 1;
+}
+.btn {
+    font-size: 60px;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+        transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-position: right center; 
+}
+
+.btn-1 {
+    margin-top: 130px;
+    width:950px;
+    height:150px ;
+    background-image: linear-gradient(to right, rgba(158,132,108,1) 0%, rgba(156,132,100,1) 51%, rgba(109,80,54,1) 100%);
+  }
